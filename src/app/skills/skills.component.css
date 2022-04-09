@@ -1,0 +1,34 @@
+h1 {
+  padding: 4rem;
+}
+
+.s {
+  padding: 2rem;
+}
+
+p {
+  font-weight: bold;
+}
+
+.skill-icon {
+  height: 100%;
+  width: auto;
+  max-height: 200px;
+}
+
+.col {
+  transition: transform 0.5s;
+}
+
+.col:hover {
+  transform: scale(1.25);
+}
+
+.barra-naranja {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  background-color: #f06529;
+  color: white;
+}
