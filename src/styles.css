@@ -1,8 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #2595bebb;
-  background-image: linear-gradient(#063970, #2596be, #2595bebb);
+  background: linear-gradient(
+    290deg,
+    rgba(0, 181, 226, 1) 0%,
+    rgba(33, 33, 117, 1) 100%,
+    rgba(0, 53, 142, 1) 100%
+  );
+
 }
 
 .text-light {
@@ -14,19 +19,20 @@ body {
   font-size: 80px;
 }
 
-.logo {
-  width: 130px;
-  height: 100%;
-}
-
-.container > .navbar-brand{
-  display: flex;
-  justify-content: space-between;
-}
-
 .home,
 .about,
-.skills,
-.work {
+.skills {
   height: 900px;
+}
+
+@media (max-width: 420px) {
+  .main {
+    margin: 20px 20px 0;
+  }
+  .home,
+  .about,
+  .skills {
+    height: auto;
+    padding: 20px;
+  }
 }

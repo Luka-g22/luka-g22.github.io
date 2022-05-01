@@ -1,9 +1,10 @@
+
 .copyright {
   background-color: #262626;
-} 
+}
 ul {
   display: flex;
-  justify-content:center;
+  justify-content: center;
 }
 
 ul li {
@@ -74,134 +75,166 @@ ul li:nth-child(3) a {
   cursor: pointer;
 }
 
-i {
+.back-to-top > i {
   transition: all 0.3s ease-in-out 0.1s;
 }
-a {
-  color:var(--primary-color);
-  font-weight:400;
-  transition:all .5s ease-in-out
- }
+.back-to-top > a {
+  color: var(--primary-color);
+  font-weight: 400;
+  transition: all 0.5s ease-in-out;
+}
 
 /*--------------------------FORMULARIO------------------------------*/
- 
-.contact_form{  
-  width: 450px; 
+
+.contact_form {
+  width: 450px;
   height: auto;
   margin: 80px auto;
-  border-radius: 10px;  
+  border-radius: 10px;
   padding-top: 20px;
-  padding-bottom: 10px;  
-  background-color: rgba(0, 0, 0, 0.235); 
-  padding-left: 28px; 
+  padding-bottom: 10px;
+  background-color: rgba(0, 0, 0, 0.235);
+  padding-left: 28px;
 }
 
-
-input{
-  background-color: rgba(0, 0, 0, 0.235); 
-  width: 400px; 
-  height: 40px; 
-  border-radius: 5px;  
-  border-style: solid; 
-  border-width: 1px; 
-  border-color: rgba(0, 0, 0, 0.235); 
-  margin-top: 10px;  
+input {
+  background-color: rgba(0, 0, 0, 0.235);
+  width: 400px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.235);
+  margin-top: 10px;
   padding-left: 10px;
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
 }
 
-
-textarea{
-  background-color: rgba(0, 0, 0, 0.235); 
-  width: 400px; 
-  height: 150px; 
-  border-radius: 5px;  
-  border-style: solid; 
-  border-width: 1px; 
-  border-color: rgba(0, 0, 0, 0.235); 
-  margin-top: 10px;  
+textarea {
+  background-color: rgba(0, 0, 0, 0.235);
+  width: 400px;
+  height: 150px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.235);
+  margin-top: 10px;
   padding-left: 10px;
-  margin-bottom: 10px; 
-  padding-top: 15px; 
+  margin-bottom: 10px;
+  padding-top: 15px;
 }
 
-
-label{
-  display: block; 
-  float: center;  
+label {
+  display: block;
+  float: center;
 }
 
-
-button{
-  height: 30px; 
+button {
+  height: 30px;
   padding-left: 5px;
-  padding-right: 5px;   
-  margin-bottom: 10px; 
-  margin-top: 10px;   
+  padding-right: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
   text-transform: uppercase;
-  background-color: rgba(0, 0, 0, 0.235); 
-  border-color: rgba(0, 0, 0, 0.235); 
-  border-style: solid; 
-  border-radius: 10px;  
-  width: 400px;   
+  background-color: rgba(0, 0, 0, 0.235);
+  border-color: rgba(0, 0, 0, 0.235);
+  border-style: solid;
+  border-radius: 10px;
+  width: 400px;
   cursor: pointer;
 }
 
-
-button p{
-  color: #0e0e0e; 
-}
-
-
-span{
-  color: #0e0e0e; 
-}
-
-
-.aviso{
-  font-size: 13px;  
-  color: #0e0e0e;  
-}
-
-
-h1{
-  font-size: 39px;  
-  text-align: letf; 
-  padding-bottom: 20px; 
+button p {
   color: #0e0e0e;
 }
 
+span {
+  color: #0e0e0e;
+}
 
-h3{
-  font-size: 16px; 
+.aviso {
+  font-size: 13px;
+  color: #0e0e0e;
+}
+
+h1 {
+  font-size: 39px;
+  text-align: letf;
+  padding-bottom: 20px;
+  color: #0e0e0e;
+}
+
+h3 {
+  font-size: 16px;
   padding-bottom: 30px;
-  color: #0e0e0e;   
+  color: #0e0e0e;
 }
 
-
-p{
-  font-size: 14px; 
-  color: #0e0e0e; 
+p {
+  font-size: 14px;
+  color: #0e0e0e;
 }
-
 
 ::-webkit-input-placeholder {
- color: #0e0e0e;
+  color: #0e0e0e;
 }
-
 
 ::-webkit-textarea-placeholder {
- color: #0e0e0e;
+  color: #0e0e0e;
 }
 
-
-.formulario input:focus{
-  outline:0;
+.formulario input:focus {
+  outline: 0;
   border: 1.5px solid #2b2b2b;
 }
 
-
-.formulario textarea:focus{
-  outline:0;
+.formulario textarea:focus {
+  outline: 0;
   border: 1.5px solid #2b2b2b;
+}
+
+@media (max-width: 450px) {
+  .contact_form {
+    width: 330px;
+    height: auto;
+    margin: 10px auto;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+  }
+
+  button {
+    width: 300px;
+  }
+  
+input {
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  margin-top: 5px;
+  padding-left: 5px;
+  margin-bottom: 5px;
+}
+
+textarea {
+  width: 300px;
+  height: 150px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  margin-top: 5px;
+  padding-left: 5px;
+  margin-bottom: 5px;
+  padding-top: 10px;
+}
+ul {
+  display: flex;
+  justify-content: flex-start;
+}
+.container{
+  padding-bottom: 5px;
+}
 }

@@ -1,9 +1,11 @@
 h1 {
-  padding: 4rem;
+  padding: 3.5em 1em 2em;
 }
 
-.s {
-  padding: 2rem;
+.row{
+  padding: 3em;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 p {
@@ -11,9 +13,9 @@ p {
 }
 
 .skill-icon {
-  height: 100%;
+  height: auto;
   width: auto;
-  max-height: 200px;
+  max-width: 170px;
 }
 
 .col {
@@ -31,4 +33,13 @@ p {
   justify-content: center;
   background-color: #f06529;
   color: white;
+}
+
+@media (max-width: 500px ){
+ .skill-icon{
+   max-height: 190px;
+ }
+ .row {
+  padding: 0;
+}
 }
