@@ -2,16 +2,16 @@
 body {
   font-family: "Poppins", sans-serif;
   background: linear-gradient(
-    290deg,
-    rgba(0, 181, 226, 1) 0%,
-    rgba(33, 33, 117, 1) 100%,
-    rgba(0, 53, 142, 1) 100%
+    300deg,
+    #e6e6e6 0%,
+    #596073 100%,
+    #bcc5d7 100%
   );
 
 }
 
 .text-light {
-  text-shadow: 2px 2px 4px #000000;
+  text-shadow: 1px #000000;
   text-align: center;
 }
 

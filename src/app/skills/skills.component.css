@@ -3,7 +3,6 @@ h1 {
 }
 
 .row{
-  padding: 3em;
   justify-content: center;
   align-items: flex-end;
 }
@@ -15,7 +14,7 @@ p {
 .skill-icon {
   height: auto;
   width: auto;
-  max-width: 170px;
+  max-width: 150px;
 }
 
 .col {
@@ -39,7 +38,4 @@ p {
  .skill-icon{
    max-height: 190px;
  }
- .row {
-  padding: 0;
-}
 }

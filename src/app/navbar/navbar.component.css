@@ -1,0 +1,68 @@
+.logo {
+  width: 130px;
+  height: 100%;
+  margin-bottom: 10px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  transition: background 0.4s cubic-bezier(0.38, 0.41, 0.27, 1);
+  color: #fff;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: inherit;
+  text-transform: uppercase;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  padding-top: 10px;
+}
+
+#toggler,
+.navbar label {
+  display: none;
+}
+
+@media screen and (max-width: 675px) {
+  .menu {
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+  }
+  .list {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  .navbar label {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .logo {
+    width: 150px;
+    height: 100%;
+    padding: 10px;
+  }
+  .navbar {
+    background: #5c6375;
+  }
+
+  #toggler:checked ~ .menu {
+    max-height: 100%;
+  }
+}
+
+@media screen and (min-width: 675px) {
+  .navbar:hover {
+    background: rgba(255, 255, 255, 0.6);
+    color: black;
+  }
+}
