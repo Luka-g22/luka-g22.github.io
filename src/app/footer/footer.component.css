@@ -61,9 +61,10 @@ ul li:nth-child(3) a {
   ul {
     all:none
   }
-  .contain{
+  .contacto{
     display: flex;
-    margin: auto;
+    flex-direction: column;
+    margin-right: 80px;
   }
 }
 
