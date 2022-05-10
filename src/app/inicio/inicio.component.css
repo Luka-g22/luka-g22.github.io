@@ -3,7 +3,7 @@
 .title {
     color:rgba(255, 255, 255, 0.835);
     overflow:hidden;
-    z-index:200;
+    z-index:10;
     margin: 150px 10rem;
    }
    @media screen and (max-width:800px) {
@@ -15,7 +15,7 @@
     .title {
      width:90%;
      margin:0 6%;
-     top:26%;
+     top: 1px;
      bottom:8rem
     }
    }
@@ -45,7 +45,7 @@
     .title__text {
      font-size:5rem;
      margin-bottom:0.8rem;
-     margin-top: 9rem;
+     margin-top: 8rem;
      margin-left: auto;
      text-shadow:0 3px 10px rgba(2, 11, 22, 0.5)
     }

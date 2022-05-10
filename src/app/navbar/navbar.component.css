@@ -62,7 +62,9 @@
 
 @media screen and (min-width: 675px) {
   .navbar:hover {
-    background: rgba(255, 255, 255, 0.6);
-    color: black;
+    background: rgba(51, 51, 51, 0.25);
+    
   }
+
+  li:hover{color: black;}
 }

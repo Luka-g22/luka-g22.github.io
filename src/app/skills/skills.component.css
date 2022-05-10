@@ -1,5 +1,5 @@
 h1 {
-  padding: 3.5em 1em 2em;
+  padding: 2.7em;
 }
 
 .row{
@@ -14,7 +14,7 @@ p {
 .skill-icon {
   height: auto;
   width: auto;
-  max-width: 150px;
+  max-width: 130px;
 }
 
 .col {
