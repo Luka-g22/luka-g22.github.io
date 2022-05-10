@@ -36,7 +36,7 @@ body {
     padding: 20px;
   }
 
-  .back-to-top, .ca3-scroll-down-link {
+  .back-to-top {
 display: none;
   }
 }

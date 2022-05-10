@@ -3,7 +3,6 @@
 .title {
     color:rgba(255, 255, 255, 0.835);
     overflow:hidden;
-    z-index:10;
     margin: 150px 10rem;
    }
    @media screen and (max-width:800px) {
@@ -166,6 +165,6 @@
 
   @media screen and (max-width:420px) {
     .ca3-scroll-down-link{
-    left: 50%;
-    bottom: 10%;
+    left: 45%;
+    bottom: 1%;
     }}
