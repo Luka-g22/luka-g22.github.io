@@ -2,6 +2,9 @@ h1 {
   padding: 2.7em;
 }
 
+.skills{
+height: 1000px;
+}
 .row{
   justify-content: center;
   align-items: flex-end;
