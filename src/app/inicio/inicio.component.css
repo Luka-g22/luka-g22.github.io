@@ -1,7 +1,7 @@
 
 
 .title {
-    color:rgba(255, 255, 255, 0.835);
+    color:rgba(255, 255, 255, 0.7);
     overflow:hidden;
     margin: 150px 10rem;
    }
@@ -27,9 +27,9 @@
     display: block;
   }
    .title__text {
-    font-size:8rem;
-    line-height:1;
-    letter-spacing:0.1em;
+    font-size:7rem;
+    line-height:1.1;
+    letter-spacing:0.05em;
     font-family: 'IBM Plex Sans', sans-serif;
     text-shadow:0 10px 30px rgb(2, 11, 22);
     padding: 20px;
