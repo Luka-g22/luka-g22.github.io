@@ -6,7 +6,7 @@
 }
 .box {
   padding: 60px;
-  background-color:rgba(255, 255, 255, 0.175);
+  background-color: rgba(255, 255, 255, 0.175);
 }
 ul {
   columns: 2;
@@ -15,10 +15,10 @@ a > img {
   margin-right: 1.5rem;
   float: left;
 }
-ul> img {
+ul > img {
   float: right;
-  height: 150px;
-  border-radius: 200px;
+  height: 120px;
+  border-radius: 10px;
 }
 h1 {
   padding: 10px;
